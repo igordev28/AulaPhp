@@ -17,11 +17,11 @@
     <?php
     $numero = $_GET['number'];
     ?><br /><?php
-    echo "$numero é "; 
+    echo ("<h1>$numero é</h1>"); 
     if ($numero % 2 == 0) {
-        echo "Numero Par";
+        echo ("<h1> Numero Par</h1>");
     } else {
-        echo "Numero Impar";
+        echo "<h1>Numero Impar</h1>";
     }
     ?>
 
